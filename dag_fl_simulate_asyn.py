@@ -342,7 +342,7 @@ def draw_dag(G):
     plt.title("Tangle DAG with Federated Learning Simulation")
     plt.show()
 
-
+# commit testing
 if __name__ == '__main__':
     '''初始化DAG和创世纪块'''
     G = nx.DiGraph()
