@@ -53,10 +53,10 @@ def load_labels(path):
 
 def load_data2():
     """加载数据"""
-    train_images_path = '../data/mnist/MNIST/raw/train-images-idx3-ubyte.gz'
-    train_labels_path = '../data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz'
-    test_images_path = '../data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz'
-    test_labels_path = '../data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz'
+    train_images_path = './data/mnist/MNIST/raw/train-images-idx3-ubyte.gz'
+    train_labels_path = './data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz'
+    test_images_path = './data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz'
+    test_labels_path = './data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz'
     # 加载图像和标签
     train_images = load_images(train_images_path)
     train_labels = load_labels(train_labels_path)
